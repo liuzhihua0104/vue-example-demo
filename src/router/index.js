@@ -6,14 +6,14 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/vuedraggable',
     name: 'vuedraggable',
     // component: Home
     component: () => import(/* webpackChunkName: "about" */ '../views/Vuedraggable.vue')
 
   },
   {
-    path: '/turntable',
+    path: '/',
     name: 'turntable',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
